@@ -1,8 +1,8 @@
 // ============ EDIT YOUR CONTENT HERE ============
 export const PROFILE={
  name:"Mazharul Islam",
- roles:["AI/ML Engineer","NLP Enthusiast","Computer Vision Builder","Systems Programmer (C)"],
- bio:"Final-semester CSE student at BRAC University (CGPA 3.54). I build end-to-end ML and NLP pipelines, and I am finishing a thesis on US road sign detection on an embedded system.",
+ roles:["AI/ML Engineer","NLP Enthusiast","Computer Vision Builder","Systems Programmer(C)", "AI/ML Researcher"],
+ bio:"I am currently at my final semester in BRAC University. Till now, my grade is CGPA 3.54 . I build end-to-end ML and NLP pipelines, and I am currently completing a thesis on US road sign detection on an embedded system.",
  email:"nishafee.islam102@gmail.com",
  github:"https://github.com/MazharulCSE-wizard",
  linkedin:"https://www.linkedin.com/in/mazharulwizard",
