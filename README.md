@@ -1,10 +1,1 @@
-# Mazharul Islam - Portfolio (React + Vite)
-
-    npm install
-    npm run dev        # local preview at http://localhost:5173
-    npm run build      # production build into dist/
-
-Edit your content in `src/data.js` (profile, skills, projects, research, certificates, experience).
-Rank and level are calculated automatically from those entries.
-
-Deploy: push to GitHub, import the repo on vercel.com (Framework preset: Vite, build `npm run build`, output `dist`).
+This project is created with React+Vite. I have also added a background music and all you have to do to press the play button. Here Level is calculated using xp calculation where xp=skillPts*4 + PROJECTS.length*100 + RESEARCH.length*150 + CERTS.length*60 + EXPERIENCE.length*120. level = 1+ math.floor(xp/40) and after that rank is calculated from level where E = level 1, D= level 10, C =level 20, B = level 35 , A = level 50, S= level 70 and Beyond S = level 100"
