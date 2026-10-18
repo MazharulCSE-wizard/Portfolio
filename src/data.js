@@ -10,7 +10,7 @@ export const PROFILE={
 };
 // skills: [name, level 1-5]
 export const SKILLS={
- "AI & ML":[["Machine Learning",3],["NLP",3],["Computer Vision",3],["CNN",3],["RNN / LSTM / GRU",3],["K-means",3]],
+ "AI & ML":[["Machine Learning",3],["NLP",3],["Computer Vision",3]],
  "Programming":[["Python",4],["C",4],["JavaScript",3],["HTML / CSS",3]],
  "Tools":[["scikit-learn",3],["pandas / NumPy",4],["PyTorch",2],["Keras",2],["Git / GitHub",3],["Linux",3]],
  "Web & Data":[["Node.js / Express",3],["React",3],["MySQL",3],["MongoDB",3]]
