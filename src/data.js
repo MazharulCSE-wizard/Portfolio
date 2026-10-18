@@ -20,7 +20,8 @@ export const PROJECTS=[
  {title:"News Topic from Headlines",date:"Sep 2026 - Oct 2026",desc:"Compared Logistic Regression, feed-forward nets and RNN/LSTM/GRU (plus bidirectional) across raw, stemmed and lemmatized text versions.",tags:["Python","NLP","Deep Learning"],link:PROFILE.github},
  {title:"Telecom Customer Churn Prediction",date:"Nov 2025 - Dec 2025",desc:"Trained Logistic Regression, Decision Tree and an MLP on the Telco dataset, with K-means to study churn distribution. Team project.",tags:["scikit-learn","pandas","Matplotlib"],link:PROFILE.github},
  {title:"File-System Metadata Journaling",date:"May 2026 - Jun 2026",desc:"C utility that checks file-system consistency on corrupted disk images, verifies metadata and recovers broken entries.",tags:["C","File Systems","OS"],link:PROFILE.github},
- {title:"Custom Shell for Ubuntu",date:"Apr 2025",desc:"Shell supporting chained commands (&&, ;), pipes, redirection, history and Ctrl+C handling. Team project.",tags:["C","Linux","OS"],link:PROFILE.github}
+ {title:"Custom Shell for Ubuntu",date:"Apr 2025",desc:"Shell supporting chained commands (&&, ;), pipes, redirection, history and Ctrl+C handling. Team project.",tags:["C","Linux","OS"],link:PROFILE.github},
+ {title:"My Portfolio website",date:"Oct 2026",desc:"This project is created with React+Vite. I have also added a background music and all you have to do to press the play button. Here Level is calculated using xp calculation where xp=skillPts*4 + PROJECTS.length*100 + RESEARCH.length*150 + CERTS.length*60 + EXPERIENCE.length*120. level = 1+ math.floor(xp/40) and after that rank is calculated from level where E = level 1, D= level 10, C =level 20, B = level 35 , A = level 50, S= level 70 and Beyond S = level 100",tags:["C","Linux","OS"],link:PROFILE.github}
 ];
 export const RESEARCH=[
  {title:"US Road Sign Detection on an Embedded System",date:"Undergraduate thesis · Ongoing",desc:"Researching and building a computer-vision system that detects US road signs and runs on an embedded platform.",tags:["Computer Vision","Embedded"]}
@@ -32,7 +33,7 @@ export const EXPERIENCE=[]; // add {title, date, desc, tags:[]} when you gain ex
 // ================================================
 
 export const RANKS = [["E",1],["D",10],["C",20],["B",35],["A",50],["S",70],["BEYOND S",100]];
-const XP_PER = 55;
+const XP_PER = 40;
 let skillPts = 0;
 Object.values(SKILLS).flat().forEach((s) => (skillPts += s[1]));
 const xp = skillPts*4 + PROJECTS.length*100 + RESEARCH.length*150 + CERTS.length*60 + EXPERIENCE.length*120;
