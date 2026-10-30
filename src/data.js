@@ -12,7 +12,7 @@ export const PROFILE={
 export const SKILLS={
  "AI & ML":[["Machine Learning",5],["NLP",4],["Computer Vision",4]],
  "Programming":[["Python",5],["C",4],["JavaScript",4],["HTML",5],["CSS",3]],
- "Tools":[["scikit-learn",4],["pandas / NumPy",5],["PyTorch",3],["Keras",4],["Git / GitHub",3],["Linux",3]],
+ "Tools":[["scikit-learn",4],["pandas",5],["Numpy",5],["PyTorch",3],["Keras",4],["Git / GitHub",3],["Linux",3]],
  "Web & Data":[["Node.js / Express",5],["React",3],["MySQL",4],["MongoDB",5]]
 };
 // add: {title,desc,tags:[],date,link}
