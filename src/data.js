@@ -36,7 +36,7 @@ export const RANKS = [["E",1],["D",10],["C",20],["B",35],["A",50],["S",70],["BEY
 const XP_PER = 40;
 let skillPts = 0;
 Object.values(SKILLS).flat().forEach((s) => (skillPts += s[1]));
-const xp = skillPts*10 + PROJECTS.length*80 + RESEARCH.length*150 + CERTS.length*60 + EXPERIENCE.length*120;
+const xp = skillPts*10 + PROJECTS.length*100 + RESEARCH.length*150 + CERTS.length*50 + EXPERIENCE.length*120;
 const level = 1 + Math.floor(xp / XP_PER);
 const pct = Math.round(((xp % XP_PER) / XP_PER) * 100);
 let ri = 0;
