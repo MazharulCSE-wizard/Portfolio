@@ -3,7 +3,7 @@ export const PROFILE={
  name:"Mazharul Islam",
  roles:["AI/ML Engineer","Systems Engineer","Software Engineer","NLP Enthusiast","Computer Vision Builder", "AI/ML Researcher"],
  bio:"I am currently at my final semester in BRAC University. Till now, my grade is CGPA 3.54 . I can build end-to-end ML and NLP pipelines. I can work on software engineering projects as well and in this section, I am more comfortable in Backend Development. I am currently completing thesis on Us road sign detection using embedded systems(Computer Vision + Robotics). ",
- email:"mazharul.islam.ml30@gmail.com",
+ email:"nishafee.rahman102@gmail.com",
  github:"https://github.com/MazharulCSE-wizard",
  linkedin:"https://www.linkedin.com/in/mazharulwizard",
  rankOverride:null   // e.g. "C" to force a rank, or null for automatic
