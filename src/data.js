@@ -2,7 +2,7 @@
 export const PROFILE={
  name:"Mazharul Islam",
  roles:["AI/ML Engineer","Systems Engineer","Software Engineer","NLP Enthusiast","Computer Vision Builder", "AI/ML Researcher"],
- bio:"I am currently at my final semester in BRAC University. Till now, my grade is CGPA 3.54 . I build end-to-end ML and NLP pipelines, and I am currently completing a thesis on US road sign detection on an embedded system.",
+ bio:"I am currently at my final semester in BRAC University. Till now, my grade is CGPA 3.54 . I can build end-to-end ML and NLP pipelines. I can work on software engineering projects as well and in this section, I am more comfortable in Backend Development. I am currently completing thesis on Us road sign detection using embedded systems(Computer Vision + Robotics). ",
  email:"nishafee.islam102@gmail.com",
  github:"https://github.com/MazharulCSE-wizard",
  linkedin:"https://www.linkedin.com/in/mazharulwizard",
