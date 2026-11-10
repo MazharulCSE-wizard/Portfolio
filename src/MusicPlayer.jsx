@@ -48,7 +48,7 @@ export default function MusicPlayer() {
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
         )}
       </button>
-      <span className="mp-t">{missing ? "add bg.mp3" : playing ? "now playing" : "play music"}</span>
+      <span className="mp-t">{missing ? "add bg.mp3" : playing ? "now playing Daylight by David Krushner" : "play music"}</span>
       <input className="mp-v" type="range" min="0" max="1" step="0.01" value={vol} onChange={(e) => setVol(+e.target.value)} aria-label="Volume" />
     </div>
   );
